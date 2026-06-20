@@ -29,6 +29,13 @@ manim -pql fourier_series.py FourierSeries
 4. Missing wait() calls - animation feels rushed
 5. Area labels may overlap triangle for small squares
 
+ ## Assignment 2 - Task 2: Project Feedback & Ideas
+
+1. **Interactive Parameter Control** - Allow users to input custom triangle sides (a, b) and watch the animation update in real time.
+2. **3D Visualisation** - Extend the Fourier series into 3D using Manim's ThreeDScene to show frequency domain representation.
+3. **Step-by-step Proof Overlay** - Add text overlays explaining each step of the proof as the animation plays.
+4. **Comparison Mode** - Show LLM-generated code vs fixed code side by side to highlight improvements.
+5. **More Theorems** - Extend the project to visualise other theorems like Euler's Identity or Taylor Series.
 ### Fourier Series - 5 Shortcomings
 1. Y-axis range ignores Gibbs phenomenon overshoot (~9%)
 2. Higher harmonics too small to see - no amplitude scaling
